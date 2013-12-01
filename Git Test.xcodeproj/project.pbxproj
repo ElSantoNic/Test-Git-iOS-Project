@@ -21,6 +21,7 @@
 		04EB7F80184AEA8D00843316 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04EB7F62184AEA8D00843316 /* UIKit.framework */; };
 		04EB7F88184AEA8D00843316 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 04EB7F86184AEA8D00843316 /* InfoPlist.strings */; };
 		04EB7F8A184AEA8D00843316 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EB7F89184AEA8D00843316 /* Git_TestTests.m */; };
+		04EB7F95184AF3DD00843316 /* SNTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EB7F94184AF3DD00843316 /* SNTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		04EB7F85184AEA8D00843316 /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		04EB7F87184AEA8D00843316 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		04EB7F89184AEA8D00843316 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		04EB7F93184AF3DD00843316 /* SNTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNTest.h; sourceTree = "<group>"; };
+		04EB7F94184AF3DD00843316 /* SNTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				04EB7F70184AEA8D00843316 /* Main.storyboard */,
 				04EB7F73184AEA8D00843316 /* SNViewController.h */,
 				04EB7F74184AEA8D00843316 /* SNViewController.m */,
+				04EB7F93184AF3DD00843316 /* SNTest.h */,
+				04EB7F94184AF3DD00843316 /* SNTest.m */,
 				04EB7F76184AEA8D00843316 /* Images.xcassets */,
 				04EB7F65184AEA8D00843316 /* Supporting Files */,
 			);
@@ -250,6 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04EB7F95184AF3DD00843316 /* SNTest.m in Sources */,
 				04EB7F6B184AEA8D00843316 /* main.m in Sources */,
 				04EB7F75184AEA8D00843316 /* SNViewController.m in Sources */,
 				04EB7F6F184AEA8D00843316 /* SNAppDelegate.m in Sources */,
